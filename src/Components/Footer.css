@@ -1,0 +1,64 @@
+footer {
+  height: auto;
+  padding: 40px;
+  justify-content: space-evenly;
+}
+.copyright,
+footer {
+  background-color: #004870;
+  color: white;
+}
+.copyright {
+  font-size: 0.75rem;
+  padding: 5px;
+  text-align: center;
+}
+div > .bold {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+.footer--links {
+  gap: 5px;
+}
+.contact--form {
+  gap: 5px;
+}
+.footer--links > a,
+.address > .address--location {
+  color: white;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.name--area,
+.message--area {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.submit {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  align-self: flex-end;
+}
+.submit:hover {
+  cursor: pointer;
+  scale: 1.05;
+  color: white;
+  font-weight: 600;
+}
+.underline {
+  text-decoration: underline;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer > div > .bold {
+    font-size: 1.5rem;
+  }
+}

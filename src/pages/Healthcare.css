@@ -1,0 +1,58 @@
+.Carousel--image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  object-fit: cover;
+}
+.healthcare--text--container {
+  padding: 40px 80px;
+  gap: 25px;
+}
+.link {
+  background-color: #004870;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 180px;
+  text-align: center;
+  font-weight: 600;
+  gap: 5px;
+}
+.link > img {
+  width: 16px;
+}
+.healthcare--image--container {
+  width: 500px;
+}
+.link:hover {
+  scale: 1.05;
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 990px) {
+  .healthcare--text--container {
+    padding: 30px;
+  }
+  .healthcare--image--container {
+    height: 100%;
+  }
+  .healthcare--image--container > img {
+    object-fit: contain;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .healthcare--text--container {
+    flex-direction: column;
+  }
+  .healthcare--image--container > img {
+    width: 350px;
+  }
+}

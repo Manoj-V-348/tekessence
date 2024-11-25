@@ -1,0 +1,17 @@
+.technology--text--container {
+  padding: 40px 80px;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 990px) {
+  .technology--text--container {
+    padding: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .technology--text--container {
+    flex-direction: column;
+  }
+}

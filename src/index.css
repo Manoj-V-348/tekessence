@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter") url("./fonts/Inter.ttf") format("truetype");
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
+  transition: all 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+:root{
+  --mainBlue: #004870,
+  --mainGreen: #53682f
+}
+
+
+.horizontal--flex {
+  display: flex;
+  flex-direction: row;
+}
+.vertical--flex {
+  display: flex;
+  flex-direction: column;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.bold {
+  font-weight: 700;
+}
+.blue {
+  color: #004870;
+}
+.green {
+  color: #53682f;
+}
+div > img {
+  width: 100%;
+}
+.carousel{
+  height: 450px;
+
+  background-image: linear-gradient(to right, white, transparent);
+  position: relative;
+  overflow: hidden;
+  padding: 40px 80px;
+}
+.carousel > h1{
+  font-size: 2.5rem;
+  width: 50%;
+}
+.carousel > p{
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.image--container > img{
+  border-radius: 10px;
+}

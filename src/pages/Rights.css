@@ -1,0 +1,19 @@
+.rights--text--container {
+  padding: 40px 80px;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 990px) {
+  .rights--text--container {
+    padding: 30px;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .rights--text--container {
+    flex-direction: column;
+  }
+}
