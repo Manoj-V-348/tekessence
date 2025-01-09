@@ -1,8 +1,3 @@
-.home--carousel {
-  background-image: url("../assets/images/home/Home-Carousel.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 .home--text--container,
 .home--carousel {
   padding: 40px 80px;
@@ -27,6 +22,17 @@ p > span {
 .clients1,
 .clients2 {
   gap: 35px;
+}
+.home--carousel {
+  position: relative;
+}
+.home--carousel > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 990px) {

@@ -5,6 +5,7 @@ import "./Rights.css";
 
 import Carousel from "../assets/images/rights/Rights.png";
 import RightsImg from "../assets/images/rights/security.jpg";
+import RightsImg2 from "../assets/images/rights/rightsImg2.jpg";
 
 function Rights() {
   return (
@@ -15,7 +16,7 @@ function Rights() {
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 
-        <div className="technology--text--container horizontal--flex">
+        <div className="rights--text--container horizontal--flex">
           <div className="operations--image--container horizontal--flex">
             <img src={RightsImg} alt="rights" />
           </div>
@@ -43,9 +44,9 @@ function Rights() {
           </div>
         </div>
 
-        <div className="rights--text--container horizontal--flex">
+        <div className="rights--text--container horizontal--flex rights--text--container2">
           <div className="operations--image--container horizontal--flex">
-            <img src={RightsImg} alt="rights" />
+            <img src={RightsImg2} alt="rights" />
           </div>
           <div className="text--container vertical--flex">
             <p>

@@ -52,7 +52,16 @@ div > .bold {
   text-decoration: underline;
   font-size: 0.75rem;
 }
-
+.social {
+  color: white;
+  gap: 5px;
+}
+.social > img {
+  width: 24px;
+}
+.contact--form {
+  align-items: flex-start;
+}
 @media (max-width: 600px) {
   .footer {
     flex-direction: column;

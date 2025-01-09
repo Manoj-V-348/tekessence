@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 import "../index.css";
 
+import instagram from "../assets/icons/instagram.png";
+import facebook from "../assets/icons/facebook.png";
+import youtube from "../assets/icons/youtube.png";
+
 function Footer() {
+  const date = new Date();
+
   return (
     <>
       <footer className="horizontal--flex footer">
@@ -29,30 +35,38 @@ function Footer() {
         </div>
 
         <div className="contact--form vertical--flex">
-          <p className="bold">Quick Entry</p>
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="name"
-            className="name--area"
-          />
-          <textarea
-            name=""
-            id=""
-            rows="4"
-            className="message--area"
-            placeholder="message"
-          ></textarea>
-          <button type="submit" className="submit">
-            Submit
-          </button>
+          <p className="bold">Social</p>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            className="social horizontal--flex center"
+          >
+            <img src={instagram} alt="insta" />
+            <p>Instagram</p>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            className="social horizontal--flex center"
+          >
+            <img src={facebook} alt="fb" />
+            <p>Facebook</p>
+          </a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            className="social horizontal--flex center"
+          >
+            <img src={youtube} alt="youtube" />
+            <p>YouTube</p>
+          </a>
         </div>
       </footer>
 
       <p className="copyright">
-        Copyright@ 2024. <span className="underline">TekEssence, Inc.</span>.
-        All rights reserved.
+        Copyright@ {date.getFullYear()}.{" "}
+        <span className="underline">TekEssence, Inc.</span>. All rights
+        reserved.
       </p>
     </>
   );
