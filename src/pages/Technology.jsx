@@ -11,7 +11,7 @@ function Technology() {
     <>
       <div className="technology--container">
         <div className="carousel technology--carousel">
-          <h1 className="blue">Technology</h1>
+          <h1 className="green">Technology</h1>
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 

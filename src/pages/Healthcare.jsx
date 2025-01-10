@@ -13,7 +13,7 @@ function Healthcare() {
     <>
       <div className="healthcare--container">
         <div className="carousel healthcare--carousel">
-          <h1 className="blue">Healthcare</h1>
+          <h1 className="green">Healthcare</h1>
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 

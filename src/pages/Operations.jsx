@@ -11,7 +11,7 @@ function Operations() {
     <>
       <div className="operations--container">
         <div className="carousel operations--carousel">
-          <h1 className="blue">Operations</h1>
+          <h1 className="green">Operations</h1>
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 

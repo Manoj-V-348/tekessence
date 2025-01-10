@@ -1,6 +1,8 @@
 @font-face {
   font-family: "Inter";
   src: local("Inter") url("./fonts/Inter.ttf") format("truetype");
+  font-family: "Verdana";
+  src: local("Inter") url("./fonts/verdana.ttf") format("truetype");
 }
 *,
 *::before,
@@ -8,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", "sans-serif";
+  font-family: "Verdana", "sans-serif";
   transition: all 0.3s ease-in-out;
 }
 a {

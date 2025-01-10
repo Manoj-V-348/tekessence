@@ -19,7 +19,7 @@ function About() {
     <>
       <div className="about--container">
         <div className="carousel about--carousel">
-          <h1 className="blue">About</h1>
+          <h1 className="green">About</h1>
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 

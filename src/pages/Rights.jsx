@@ -12,7 +12,7 @@ function Rights() {
     <>
       <div className="rights--container">
         <div className="carousel rights--carousel">
-          <h1 className="blue">IP Rights</h1>
+          <h1 className="green">IP Rights</h1>
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 

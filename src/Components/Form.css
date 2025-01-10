@@ -15,11 +15,11 @@ form {
   width: 300px;
   font-size: 1.05rem;
   border-radius: 5px;
-  border: 0.5px solid #004870;
+  border: 0.5px solid #53682f;
 }
 form > .button {
   border-radius: 25px;
-  background-color: #004870;
+  background-color: #53682f;
   color: white;
   font-weight: 600;
   border: none;

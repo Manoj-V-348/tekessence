@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
       <div className="carousel home--carousel">
-        <h1 className="blue">Providers of Innovation Capital</h1>
+        <h1 className="green">Providers of Innovation Capital</h1>
         <p>
           TekEssence is a unique Innovation services firm that can multiple the
           enterprise value of a business, while lowering its non-core operating
@@ -54,7 +54,7 @@ function Home() {
           </p>
           <br />
           <p>
-            As CxO's on demand, <span className="bold blue">TekEssence</span>{" "}
+            As CxO's on demand, <span className="bold green">TekEssence</span>{" "}
             provides an integrated approach to strategy consulting, global
             operations, and technology incubation - an unparalleled service in
             the world of business transformation.
@@ -63,7 +63,7 @@ function Home() {
       </div>
 
       <div className="client--details--container vertical--flex center">
-        <p className="bold blue">
+        <p className="bold green">
           Our management team members early worked companies
         </p>
         <div className="horizontal--flex clients1">

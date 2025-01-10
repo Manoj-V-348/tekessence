@@ -13,12 +13,12 @@ function Contact() {
     <>
       <div className="contact--container">
         <div className="carousel contact--carousel">
-          <h1 className="blue">Contact Us</h1>
+          <h1 className="green">Contact Us</h1>
           <img src={Carousel} alt="carousel" className="Carousel--image" />
         </div>
 
         <div className="vertical--flex center form-wrapper">
-          <h1 className="join--text">
+          <h1 className="join--text green">
             Join Us and Embark your Journey to Development
           </h1>
           <div className="form--container horizontal--flex center">
