@@ -26,6 +26,9 @@ p > span {
 .home--carousel {
   position: relative;
 }
+.home--carousel > p {
+  padding-top: 16px;
+}
 .home--carousel > img {
   position: absolute;
   top: 0;
@@ -33,6 +36,10 @@ p > span {
   z-index: -1;
   height: 100%;
   object-fit: cover;
+}
+.middle--text {
+  padding: 0px 30px 30px 30px;
+  text-align: center;
 }
 
 @media (max-width: 990px) {
@@ -60,6 +67,7 @@ p > span {
   .client--details--container {
     padding: 30px;
     margin-top: 0;
+    text-align: center;
   }
 }
 @media (max-width: 600px) {

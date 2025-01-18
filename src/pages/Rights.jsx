@@ -37,10 +37,7 @@ function Rights() {
               We rationalize all of the above in the context of even our
               client's own intellectual property - bits and pieces of code and
               designs that may offer diamonds in the rough.
-              <br />
-              <br />
             </p>
-            <br />
           </div>
         </div>
 

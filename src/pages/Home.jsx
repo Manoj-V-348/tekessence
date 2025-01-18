@@ -41,6 +41,7 @@ function Home() {
             flux.
           </p>
           <br />
+          <br />
           <p>
             Our client partners are typically niche leaders in their industry
             segment who could be re-positioned to disrupt existing markets, and
@@ -52,15 +53,15 @@ function Home() {
             technologies that can prove a differentiating edge to business
             functions.
           </p>
-          <br />
-          <p>
-            As CxO's on demand, <span className="bold green">TekEssence</span>{" "}
-            provides an integrated approach to strategy consulting, global
-            operations, and technology incubation - an unparalleled service in
-            the world of business transformation.
-          </p>
         </div>
       </div>
+
+      <p className="middle--text">
+        As CxO's on demand, <span className="bold green">TekEssence</span>{" "}
+        provides an integrated approach to strategy consulting, global
+        operations, and technology incubation - an unparalleled service in the
+        world of business transformation.
+      </p>
 
       <div className="client--details--container vertical--flex center">
         <p className="bold green">
